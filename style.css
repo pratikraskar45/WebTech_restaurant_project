@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 100px;
+    background-color: gray;
+    background: linear-gradient(to right, rgb(79, 73, 73) , #b6a9a9, #d2cece);
+}
+
+/* Header styles */
+
+.nav{ 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     width: 100%;
+    padding: 30px 0;
+    color: whitesmoke;
+}
+
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.nav .logo b {
+                color: red;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav ul li{
+            margin-right: 30px;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.signin{
+    background: transparent;
+    border: none;
+    color: white;
+   
+}
+
+.signup{
+   background-color: orangered;
+   color: wheat;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+}
+
+/* conten */
+
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* content text  */
+
+.content .content-left{
+    display: block;
+    width: 100%;
+}
+
+.content .content-left .info{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+}
+
+.content .content-left .info h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.content .content-left .info p{
+    font-size: 20px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+/* button  */
+
+.content .content-left button{
+    padding: 10px 23px;
+    background-color: red;
+    color:whitesmoke;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* const img  */
+
+.content .content-right{
+    display: block;
+    width: 100%;
+}
+
+.content .content-right img{
+    width: 400px;
+    height: auto;
+    position: relative;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* section   */
+
+*{
+    margin:0px;
+    padding:0;
+    box-sizing:border-box;
+    /* overflow-x:hidden; */
+}
+/* -------------------------------Header----------------------------- */
+.header{
+    width:100%;
+    height:20vh;
+    /* background-color: brown; */
+}
+#mk{
+    line-height:20vh;
+    font-size:4rem;
+    font-weight:bold;
+    margin:0 0 0 30px;
+    color:#FFCB05;
+    font-family: sans-serif;
+}
+#hotels{
+    line-height:20vh;
+    font-weight:bold;
+    font-size:4rem;
+    color:#404040;
+    font-family: sans-serif;
+}
+@media all and (max-width:400px){
+    #mk{
+        line-height:20vh;
+        font-size:3rem;
+        font-weight:bold;
+        margin:0 0 0 30px;
+        color:#FFCB05;
+        font-family: sans-serif;
+    }
+    #hotels{
+        line-height:20vh;
+        font-weight:bold;
+        font-size:3rem;
+        color:#404040;
+        font-family: sans-serif;
+    }
+}
+/* -------------------------------Header End----------------------------- */
+
+
+/* -------------------------------Nav----------------------------- */
+.nav{
+    position: sticky;
+    top:0;
+    width:100%;
+    height:auto;
+    padding:10px;
+    background-color:black;
+    display:flex;
+    z-index:1000;
+}
+.ul{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.li{
+    color:white;
+    list-style: none;
+}
+.li:hover{
+    color:sandybrown;
+}
+.search{
+    display:flex;
+    align-self:center;
+    border-radius:25px;
+    border:none;
+    height:auto;
+    width:20%;
+    margin:0px 20px;
+    padding:10px;
+}
+.search:focus{
+    outline: none;
+}
+@media all and (max-width:700px){
+    .nav{
+       flex-wrap: wrap;
+    }
+    .search{
+        display:flex;
+        align-content: flex-end;
+        margin:20px auto 5px;
+        border-radius:25px;
+        border:none;
+        height:auto;
+        width:60%;
+        padding:10px;
+    }
+}
+/* -------------------------------Nav End----------------------------- */
+
+/* -------------------------------Slider----------------------------- */
+.slider{
+    width:100%;
+    height:60vh;
+}
+.imag{
+    width: inherit;
+    height:inherit;
+}
+.imgtext{
+    position: absolute;
+    margin:100px 0 0 40px;
+}
+#wel{
+    color:black;
+    font-size:2rem;
+    margin-bottom:20px;
+}
+#h1{
+    color:black;
+    font-size:5rem;
+    margin-bottom:20px;
+}
+#loremp{
+    color:white;
+    font-size:1.5rem;
+}
+.btn{
+    position: absolute;
+    margin-top:10px;
+    height:30px;
+    width:100px;
+    background-color: lawngreen;
+    border:none;
+    box-shadow: 0 0 5px 0px lawngreen;
+    text-align: center;
+}
+.btn:focus{
+    outline: none;
+}
+@media all and (max-width:560px){
+    #wel{
+        color:white;
+        font-size:1.5rem;
+        margin-bottom:20px;
+    }
+    #h1{
+        color:white;
+        font-size:3rem;
+        margin-bottom:20px;
+    }
+    #loremp{
+        color:white;
+        font-size:1rem;
+    }
+}
+/* -------------------------------Slider End----------------------------- */
+
+
+
+/* -------------------------------Banner----------------------------- */
+.banner{
+    height:auto;
+    width:100%;
+    background-color: #FFD01D;
+    position: relative;
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
+    padding:20px;    
+}
+.bspan{
+    width:100%;
+    height:inherit;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size:3rem;
+    text-align: center;
+}
+.hotelsym{
+    font-size: 6rem;
+    border-radius:50%;
+    padding:10px;
+    background-color: red;
+    margin:0 10px 0 -20px;
+}
+@media all and (max-width:900px){
+    .bspan{
+        width:100%;
+        height:inherit;
+        display:flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        font-size:2rem;
+        text-align: center;
+    }
+    .hotelsym{
+        font-size: 4rem;
+        border-radius:50%;
+        padding:10px;
+        background-color: red;
+        margin:0 10px 0 -20px;
+    }
+}
+@media all and (max-width:324px){
+    .bspan{
+        width:100%;
+        height:inherit;
+        display:flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        font-size:1rem;
+        text-align: center;
+    }
+    .hotelsym{
+        font-size: 2rem;
+        border-radius:50%;
+        padding:10px;
+        background-color: red;
+        margin:0 10px 0 -20px;
+    }
+}
+/* -------------------------------Banner End----------------------------- */
+
+/* -------------------------------Check----------------------------- */
+.check{
+    width:100%;
+    height:auto;
+    background-color: #EBEBEB;
+    /* border-image: ; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.checklb{
+    display: inline-block;
+    margin:25px;
+    font-size: 1.1rem;
+}
+.checkinp{
+    margin:25px;
+    width:200px;
+    height:30px;
+}
+.secroom{
+    height:30px;
+    width: 200px;;
+}
+#sbtn{
+    margin:45px;
+    height:30px;
+    width:130px;
+    background-color:#FFCB05 ;
+    border:none;
+}
+#sbtn:focus{
+    outline:none;
+}
+/* -------------------------------Check End----------------------------- */
+
+
+/* footer  */
+
+footer {
+    text-align: center;
+}
