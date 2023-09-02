@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Book</title>
+    <link rel="stylesheet" href="./roombook.css">
+</head>
+<body>
+
+    <!-- for bokking -->
+    <div>
+    <h3 ><b><u>Booking Application</u></b></h3>
+    <form action="">
+    <table border="0" cellspacing="0">
+        <tr>
+            <td><label for="FN">FIRST NAME</label></td>
+            <td><input type="text" name="fname" maxlength="30" id="FN" autofocus></td>
+        </tr>
+
+        <tr>
+            <td><label for="ls">LAST NAME </label></td>
+            <td><input type="text" name="lname" maxlength="30" id="ls"></td>
+        </tr>
+
+        <tr>
+            <td><label for="dob">DATE OF BIRTH</label></td>
+            <td><input type="date" name="DOB" id="dob" ></td>
+        </tr>
+
+        <tr>
+            <td><label for="em">EMAIL ID</label></td>
+            <td><input type="email" name="email" id="em"></td>
+        </tr>
+        <tr>
+            <td><label for="nm">MOBILE NUMBER</label></td>
+            <td><input type="text" name="cno" maxlength="10" id="nm" ></td>
+        </tr>
+
+        <tr>
+            <td><label for="in">Check-in</label></td>
+            <td><input type="datetime-local" name="" id="in"></td>
+        </tr>
+        <tr>
+            <td><label for="out">Check-out</label></td>
+            <td><input type="datetime-local" name="" id="out"></td>
+        </tr>
+
+
+
+        <tr>
+            <td><label for="type">Room Type</label></td>
+            <td><select name="count" id="type">
+                <option value="Luxury King Sea View with Bathtub">Luxury King Sea View with Bathtub</option>
+                <option value="Deluxe Twin Sea View">Deluxe Twin Sea View</option>
+                <option value="Superior Twin Bed">Superior Twin Bed</option>
+                
+            </select></td>
+
+        </tr>
+
+        <tr>
+            <td><label for="adults">Adults</label></td>
+            <td><select name="count" id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                
+            </select></td>
+
+        </tr>
+
+        <tr>
+            <td><label for="per">Person</label></td>
+            <td><select name="count" id="per">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <!-- <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option> -->
+                
+            </select></td>
+
+        </tr>
+        <tr>
+            <td><label for="gen">Marital stutus</label></td>
+            <td>Married<input type="radio" name="gender" id="gen" value="Married">
+            Unmarried    <input type="radio" name="gender" id="gen" value="Unmarried">
+        </td>
+
+        </tr>
+
+       
+
+            <td colspan="6"><center><input type="submit" name="" id="">
+                <input type="reset" name="" id=""></center></td>
+        </tr>
+    </table>
+</div>
+    
+</body>
+</html>

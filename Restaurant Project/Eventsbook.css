@@ -1,0 +1,16 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+div{
+    border: 1px solid black;
+    height: 400px;
+    width: 28%;
+    margin-left: 300px;
+    color: black;
+
+}
+

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    /* margin: 0 100px; */
+    background-color: white;
+    /* background: linear-gradient(to right, rgb(79, 73, 73) , #b6a9a9, #d2cece); */
+}
+.main{
+    border: 0px solid black;
+    width: 100%;
+    height: 70px;
+    /* background: linear-gradient(to top, rgba(0, 0, 0,0,5)50%, rgba(0, 0, 0,0,5)50%), url(./sea\ view\ image.jpeg); */
+    background-image: url(./seatides2.jpeg);
+    /* background-position: center; */
+    background-size: cover;
+    height: 70px;
+
+
+}
+.navbar{
+    width: 100%px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Arial ;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(185, 137, 47);
+}
+
+/* main nav */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#div1{
+    border: 0px solid black;
+    height: 300px;
+    width: 100%;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+#img1{
+    height: 300px;
+    width: 100%;
+    background-size:cover;
+
+}
+#name{
+    position: absolute;
+    z-index: 1;
+    margin-top: -150px;
+    margin-left: 40px;
+    font-size: 70px;
+    color: black;
+    /* text-shadow: 3px 3px 1px black; */
+}
+/* div2 */
+.div2{
+    border: 0px solid black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(237, 226, 212); */
+
+}
+
+img{
+    border: 1px solid black;
+    height:300px ;
+    width: 95%;
+}
